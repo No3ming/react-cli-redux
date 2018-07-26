@@ -1,0 +1,37 @@
+{
+  "name": "react-cli",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.6.6",
+    "autoprefixer": "^8.6.5",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "blueimp-md5": "^2.10.0",
+    "china-division": "^2.1.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "loadable-components": "^2.2.2",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "mobx-react-devtools": "^5.0.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^3.2.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewireds build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewire-preact": "^1.0.1",
+    "react-app-rewired": "^1.5.2"
+  },
+  "proxy": "http://test.kid.cloudream.com"
+}
